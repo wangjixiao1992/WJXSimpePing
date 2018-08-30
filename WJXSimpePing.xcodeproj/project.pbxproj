@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E555E44C2137825D00FB75F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E555E44B2137825D00FB75F8 /* AppDelegate.m */; };
-		E555E44E2137825D00FB75F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E555E44D2137825D00FB75F8 /* Assets.xcassets */; };
-		E555E4512137825D00FB75F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E555E44F2137825D00FB75F8 /* LaunchScreen.storyboard */; };
-		E555E4542137825D00FB75F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E555E4532137825D00FB75F8 /* main.m */; };
+		E5F8F6E72137931E00BD9CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F8F6DA2137931E00BD9CE5 /* Assets.xcassets */; };
+		E5F8F6E82137931E00BD9CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F8F6DB2137931E00BD9CE5 /* main.m */; };
+		E5F8F6E92137931E00BD9CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F8F6DC2137931E00BD9CE5 /* AppDelegate.m */; };
+		E5F8F6EA2137931E00BD9CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F8F6DD2137931E00BD9CE5 /* Info.plist */; };
+		E5F8F6EB2137931E00BD9CE5 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F8F6E22137931E00BD9CE5 /* SimplePing.m */; };
+		E5F8F6EC2137931E00BD9CE5 /* SimpePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F8F6E32137931E00BD9CE5 /* SimpePingHelper.m */; };
+		E5F8F6ED2137931E00BD9CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F8F6E52137931E00BD9CE5 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E555E4472137825D00FB75F8 /* WJXSimpePing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJXSimpePing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E555E44A2137825D00FB75F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E555E44B2137825D00FB75F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E555E44D2137825D00FB75F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E555E4502137825D00FB75F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E555E4522137825D00FB75F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E555E4532137825D00FB75F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5F8F6D92137931E00BD9CE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5F8F6DA2137931E00BD9CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5F8F6DB2137931E00BD9CE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5F8F6DC2137931E00BD9CE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5F8F6DD2137931E00BD9CE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F8F6E02137931E00BD9CE5 /* SimpePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpePingHelper.h; sourceTree = "<group>"; };
+		E5F8F6E12137931E00BD9CE5 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		E5F8F6E22137931E00BD9CE5 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		E5F8F6E32137931E00BD9CE5 /* SimpePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpePingHelper.m; sourceTree = "<group>"; };
+		E5F8F6E52137931E00BD9CE5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5F8F6E62137931E00BD9CE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +61,51 @@
 		E555E4492137825D00FB75F8 /* WJXSimpePing */ = {
 			isa = PBXGroup;
 			children = (
-				E555E44A2137825D00FB75F8 /* AppDelegate.h */,
-				E555E44B2137825D00FB75F8 /* AppDelegate.m */,
-				E555E44D2137825D00FB75F8 /* Assets.xcassets */,
-				E555E44F2137825D00FB75F8 /* LaunchScreen.storyboard */,
-				E555E4522137825D00FB75F8 /* Info.plist */,
-				E555E4532137825D00FB75F8 /* main.m */,
+				E5F8F6DE2137931E00BD9CE5 /* Class */,
+				E5F8F6D82137931E00BD9CE5 /* Supporting Files */,
 			);
 			path = WJXSimpePing;
+			sourceTree = "<group>";
+		};
+		E5F8F6D82137931E00BD9CE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8F6D92137931E00BD9CE5 /* AppDelegate.h */,
+				E5F8F6DA2137931E00BD9CE5 /* Assets.xcassets */,
+				E5F8F6DB2137931E00BD9CE5 /* main.m */,
+				E5F8F6DC2137931E00BD9CE5 /* AppDelegate.m */,
+				E5F8F6DD2137931E00BD9CE5 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F8F6DE2137931E00BD9CE5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8F6DF2137931E00BD9CE5 /* WJXSimpePing */,
+				E5F8F6E42137931E00BD9CE5 /* ViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E5F8F6DF2137931E00BD9CE5 /* WJXSimpePing */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8F6E02137931E00BD9CE5 /* SimpePingHelper.h */,
+				E5F8F6E32137931E00BD9CE5 /* SimpePingHelper.m */,
+				E5F8F6E12137931E00BD9CE5 /* SimplePing.h */,
+				E5F8F6E22137931E00BD9CE5 /* SimplePing.m */,
+			);
+			path = WJXSimpePing;
+			sourceTree = "<group>";
+		};
+		E5F8F6E42137931E00BD9CE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8F6E62137931E00BD9CE5 /* ViewController.h */,
+				E5F8F6E52137931E00BD9CE5 /* ViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E555E44E2137825D00FB75F8 /* Assets.xcassets in Resources */,
-				E555E4512137825D00FB75F8 /* LaunchScreen.storyboard in Resources */,
+				E5F8F6EA2137931E00BD9CE5 /* Info.plist in Resources */,
+				E5F8F6E72137931E00BD9CE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E555E4542137825D00FB75F8 /* main.m in Sources */,
-				E555E44C2137825D00FB75F8 /* AppDelegate.m in Sources */,
+				E5F8F6EC2137931E00BD9CE5 /* SimpePingHelper.m in Sources */,
+				E5F8F6EB2137931E00BD9CE5 /* SimplePing.m in Sources */,
+				E5F8F6E92137931E00BD9CE5 /* AppDelegate.m in Sources */,
+				E5F8F6E82137931E00BD9CE5 /* main.m in Sources */,
+				E5F8F6ED2137931E00BD9CE5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E555E44F2137825D00FB75F8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E555E4502137825D00FB75F8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E555E4552137825D00FB75F8 /* Debug */ = {
@@ -266,14 +303,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WJXSimpePing/Info.plist;
+				DEVELOPMENT_TEAM = C4AYBFTRT4;
+				INFOPLIST_FILE = "$(SRCROOT)/WJXSimpePing/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.WJXFMDB.www.WJXSimpePing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -282,14 +321,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WJXSimpePing/Info.plist;
+				DEVELOPMENT_TEAM = C4AYBFTRT4;
+				INFOPLIST_FILE = "$(SRCROOT)/WJXSimpePing/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.WJXFMDB.www.WJXSimpePing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WJXAlertViewCtl.h"
+#import "SimpePingHelper.h"
 
 @interface ViewController ()
 
@@ -22,29 +22,20 @@
     button.frame = CGRectMake(100, 100, 100, 100);
     button.backgroundColor = [UIColor redColor];
     [button addTarget:self
-               action:@selector(alertViewShow)
+               action:@selector(ping)
      forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
 }
 
-- (void)alertViewShow
+- (void)ping
 {
-    WJXAlertViewCtl *alert = [WJXAlertViewCtl alertControllerWithTitle:@"title"
-                                                               message:@"content。"
-                                                        preferredStyle:WJXAlertViewTypeAlert];
-    //取消
-    WJXAlertAction *cancenAction = [WJXAlertAction actionWithTitle:@"cancel"
-                                                         textColor:MAMainColor
-                                                             style:WJXAlertActionTypeBold
-                                                           handler:^(WJXAlertAction *action) {
-                                                               
-                                                           }];
-    
-    [alert addAction:cancenAction];
-    [self.navigationController presentViewController:alert
-                                            animated:YES
-                                          completion:nil];
+    [[SimpePingHelper sharedClient] pingTheDomainWithHostName:@"www.apple.com"
+                                                      success:^(NSInteger time) {
+                                                          NSLog(@"%ld", time);
+                                                      } failure:^(NSString *error) {
+                                                          NSLog(@"%@", error);
+                                                      }];
 }
 
 
